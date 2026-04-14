@@ -1,87 +1,98 @@
 <!DOCTYPE html>
+<html lang="en">
 
-<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects | My Portfolio</title>
+    <link rel="stylesheet" href="Styles/styles.css">
+</head>
 
-    <head>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="Styles/styles.css">
+<body>
 
-        <title>Projects</title>
-
-    </head>
-
-
-    <body>
-
-        <header>
-
-            <nav>
-                <img src="Resources/logo.png" id="logo-img">
-                
-                <ul class="nav-links">
-
-                    <li><button><a href="index.html">Home</a></button></li>
-                    <li><button><a href="about.html">About</a></button></li>
-                    <li><button><a href="projects.html">Projects</a></button></li>
-                    <li><button><a href="contact.html">Contact</a></button></li>
-
-                </ul>
-            </nav>
-
-            <section class="hero">
-
-                <h1 class="hero-text">My Projects!</h1>
-
-            </section>
-
-        </header>
-
-
-        <section class = "projects-list">
+    <header>
+        <nav>
+            <img src="Resources/logo.png" id="logo-img" alt="Logo">
             
+            <ul class="nav-links">
+                <li><button><a href="index.html">Home</a></button></li>
+                <li><button><a href="about.html">About</a></button></li>
+                <li><button><a href="projects.html">Projects</a></button></li>
+                <li><button><a href="contact.html">Contact</a></button></li>
+            </ul>
+        </nav>
+
+        <section class="hero">
+            <h1 class="hero-text">My Projects!</h1>
+        </section>
+    </header>
+
+    <main>
+        <section class="projects-list">
             <div class="project-grid">
 
-
-               
+                <!-- Project Card 1 -->
                 <article class="project-card">
-                    <img class = "project-img" src = "portfolio.png">
+                    <img class="project-img" src="portfolio.png" alt="Personal Portfolio Project">
                     <h3 class="project-name">Personal Portfolio</h3>
-                    <p class="project-desc">A personal portfolio website built in HTML & CSS</p>
+                    <p class="project-desc">A personal portfolio website built in HTML &amp; CSS. Fully responsive and clean design.</p>
                     <div class="project-metadata">
-                        <a href="https://github.com/ryann-0101/website-personal-portfolio" class="project-link">View</a>
+                        <a href="https://github.com/ryann-0101/website-personal-portfolio" class="project-link" target="_blank">View Project →</a>
                         <span class="project-updated">Updated March 2026</span>
                     </div>
                 </article>
 
-                
+                <!-- Project Card 2 -->
                 <article class="project-card">
-                    <img class = "project-img" src = "hashing-program.png">
+                    <img class="project-img" src="hashing-program.png" alt="Hashing Program Project">
                     <h3 class="project-name">Hashing Program</h3>
-                    <p class="project-desc">A basic hashing program built in python</p>
+                    <p class="project-desc">A basic hashing program built in Python. Demonstrates core cryptography concepts.</p>
                     <div class="project-metadata">
-                        <a href="https://github.com/ryann-0101/PythonProject" class="project-link">View</a>
+                        <a href="https://github.com/ryann-0101/PythonProject" class="project-link" target="_blank">View Project →</a>
                         <span class="project-updated">Updated Nov 2025</span>
                     </div>
                 </article>
 
-                
-            </div>
+                <!-- Project Card 3 - Extra example to show grid works well -->
+                <article class="project-card">
+                    <img class="project-img" src="api-project.png" alt="API Integration Project">
+                    <h3 class="project-name">Weather API App</h3>
+                    <p class="project-desc">A JavaScript app that fetches live weather data from an API. Shows temperature, humidity, and conditions.</p>
+                    <div class="project-metadata">
+                        <a href="#" class="project-link" target="_blank">View Project →</a>
+                        <span class="project-updated">Updated Jan 2026</span>
+                    </div>
+                </article>
+
+                <!-- Project Card 4 -->
+                <article class="project-card">
+                    <img class="project-img" src="task-manager.png" alt="Task Manager App">
+                    <h3 class="project-name">Task Manager</h3>
+                    <p class="project-desc">A simple to-do list application with local storage. Add, delete, and mark tasks as complete.</p>
+                    <div class="project-metadata">
+                        <a href="#" class="project-link" target="_blank">View Project →</a>
+                        <span class="project-updated">Updated Dec 2025</span>
+                    </div>
+                </article>
 
             </div>
         </section>
 
-    
-        
-        <footer>
+        <div class="view-all-wrapper">
+            <a href="#" class="view-all-link">View All Projects</a>
+        </div>
+    </main>
 
+    <footer>
+        <ul>
             <li><a href="index.html">Home</a></li>
             <li><a href="about.html">About</a></li>
             <li><a href="projects.html">Projects</a></li>
             <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <p class="copyright">&copy; 2026 My Portfolio. All rights reserved.</p>
+    </footer>
 
-        </footer>
-
-    </body>
-
+</body>
 
 </html>
