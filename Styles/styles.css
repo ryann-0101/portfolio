@@ -1,4 +1,4 @@
-/* RESET & BASE STYLES */
+
 * {
     margin: 0;
     padding: 0;
@@ -16,12 +16,10 @@ body {
     min-height: 100vh;
 }
 
-/* MAIN CONTENT PUSHES FOOTER DOWN */
 main {
     flex: 1;
 }
 
-/* NAVIGATION */
 nav {
     display: flex;
     justify-content: space-between;
@@ -76,7 +74,6 @@ nav button a {
     font-weight: bold;
 }
 
-/* HERO SECTION */
 .hero {
     padding: 80px 20px;
     background: url("/Resources/hero.png") center/cover no-repeat;
@@ -91,7 +88,6 @@ nav button a {
     text-shadow: 2px 2px 4px rgba(255,255,255,0.5);
 }
 
-/* PROJECT GRID - RESPONSIVE */
 .project-grid {
     background-color: #dcdcdc;
     display: grid;
@@ -102,7 +98,6 @@ nav button a {
     max-width: 1400px;
 }
 
-/* PROJECT CARDS - CONTENT CONTAINED PROPERLY */
 .project-card {
     background-color: #f2f2f2;
     border: 1px solid #414141;
@@ -176,7 +171,6 @@ nav button a {
     font-size: 0.85rem;
 }
 
-/* VIEW ALL BUTTON */
 .view-all-wrapper {
     text-align: center;
     margin: 1rem 0 3rem;
@@ -201,7 +195,6 @@ nav button a {
     border-color: #515151;
 }
 
-/* FOOTER */
 footer {
     background-color: #f2f2f2;
     margin-top: 40px;
@@ -242,7 +235,6 @@ footer a:hover {
     margin-top: 10px;
 }
 
-/* RESPONSIVE DESIGN - FOR TABLETS & PHONES */
 @media screen and (max-width: 768px) {
     .project-grid {
         grid-template-columns: 1fr;
@@ -296,12 +288,10 @@ footer a:hover {
     }
 }
 
-/* FIX FOR IMAGES THAT MIGHT BE MISSING - graceful fallback */
 .project-img {
     background-color: #e0e0e0;
 }
 
-/* MAKE SURE CONTENT NEVER OVERFLOWS */
 .project-card,
 .project-desc,
 .project-name {
@@ -310,7 +300,6 @@ footer a:hover {
     hyphens: auto;
 }
 
-/* CONTAINER FOR BETTER READABILITY */
 .projects-list {
     max-width: 1400px;
     margin: 0 auto;
