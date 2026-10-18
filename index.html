@@ -1,125 +1,96 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Projects | My Portfolio</title>
-    <link rel="stylesheet" href="Styles/styles.css">
-</head>
+    <head>
+        <title>Portfolio</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="styles.css">
+    </head>
 
-<body>
 
-    <header>
-        <nav>
-            <img src="Resources/logo.png" id="logo-img" alt="Logo">
-            
-            <ul class="nav-links">
-                <li><button><a href="index.html">Projects</a></button></li>
-                <li><button><a href="https://github.com/ryann-0101">GitHub</a></button></li>
-                <li><button><a href="mailto:ryan@rndevelopments.xyz">Contact</a></button></li>
-            </ul>
-        </nav>
 
-        <section class="hero">
-            <h1 class="hero-text">My Projects!</h1>
-        </section>
-    </header>
+    <body>
 
-    <main>
-        <section class="projects-list">
-            <div class="project-grid">
+        <header>
 
-                <article class="project-card">
-                    <h3 class="project-name">Personal Portfolio</h3>
-                    <p class="project-desc">A personal portfolio website built in HTML &amp; CSS. Fully responsive and clean design.</p>
-                    <div class="project-metadata">
-                        <a href="https://github.com/ryann-0101/website-personal-portfolio" class="project-link" target="_blank">View Project →</a>
-                        <span class="project-updated">Updated April 2026</span>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="index.html">Projects</a></li>
+                    <li><a href="https://github.com/ryann-0101">GitHub</a></li>
+                    <li><a href="mailto:ryan@rndevelopments.xyz">Contact</a></li>
+                </ul>
+            </nav>
+
+        </header>
+
+
+        <main>
+
+            <div class="hero">
+
+                <div id="intro-text">
+                    <h1 class="intro-header">Hi, Im Ryan</h1>
+                    <p class="intro-p">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+
+                </div>    
+                <div id="chatbot-container">
+                    <iframe src="https://share.conferbot.com/c/8sh459pg" width="400" height="350" frameborder="0"></iframe>
+                </div>
+            </div>
+
+            <hr>
+
+
+            <div id="about-me">
+                
+                <div id="info-qualifications">
+                    <h3>About me & My Qualifications</h3>
+                  
+                </div>
+
+                <div id="tech-stack">
+                    <h3>My Tech Stack</h3>
+                    <div class="skill">
+                        <h4>Python Development</h4>
+                        <p>Basic Python Development</p>
                     </div>
-                </article>
 
-                <article class="project-card">
-                    <h3 class="project-name">Hashing Program</h3>
-                    <p class="project-desc">A basic hashing program built in Python. Demonstrates core cryptography concepts.</p>
-                    <div class="project-metadata">
-                        <a href="https://github.com/ryann-0101/PythonProject" class="project-link" target="_blank">View Project →</a>
-                        <span class="project-updated">Updated Dec 2025</span>
+                    <div class="skill">
+                        <h4>Web Design & Development</h4>
+                        <p>Website design in languages HTML,CSS,JS</p>
                     </div>
-                </article>
 
-                <article class="project-card">
-                    <h3 class="project-name">Enlap Air - Employer Set Project</h3>
-                    <p class="project-desc">A Python application using Pandas that allowed users to submit and retrieve Flight data and Maintenance reports from csv file.</p>
-                    <div class="project-metadata">
-                        <a href="https://github.com/ryann-0101/Enlap-Air-ESP-Project" class="project-link" target="_blank">View Project →</a>
-                        <span class="project-updated">Updated Jan 2026</span>
+                    <div class="skill">
+                        <h4>Flask App Development</h4>
+                        <p>Experience developing web apps using flask and Jinja Templating Language</p>
                     </div>
-                </article>
 
-                <article class="project-card">
-                    <h3 class="project-name">Versese Cars - Employer Set Project</h3>
-                    <p class="project-desc">A simple to-do list application with local storage. Add, delete, and mark tasks as complete.</p>
-                    <div class="project-metadata">
-                        <a href="https://github.com/ryann-0101/Versese-Cars-ESP-Project" class="project-link" target="_blank">View Project →</a>
-                        <span class="project-updated">Updated Feb 2026</span>
+                    <div class="skill">
+                        <h4>SQL</h4>
+                        <p>Experience linking python applications with backend databases using SQL commands </p>
                     </div>
-                </article>
 
-                <article class="project-card">
-                    <h3 class="project-name">File Processing Program</h3>
-                    <p class="project-desc">Basic program loading & saving data from a text or csv file.</p>
-                    <div class="project-metadata">
-                        <a href="https://github.com/ryann-0101/Basic-Python-File-Handling-Maths-Game" class="project-link" target="_blank">View Project →</a>
-                        <span class="project-updated">Updated Jan 2065</span>
-                    </div>
-                </article>
+                </div>
+            </div>
 
-                <article class="project-card">
-                    <h3 class="project-name">Python CLI Calculator</h3>
-                    <p class="project-desc">Basic command line calculator with + - x / functions.</p>
-                    <div class="project-metadata">
-                        <a href="https://github.com/ryann-0101/Basic-Python-CLI-Calculator" class="project-link" target="_blank">View Project →</a>
-                        <span class="project-updated">Updated Sep 2025</span>
-                    </div>
-                </article>
-
-                <article class="project-card">
-                    <h3 class="project-name">Flask Login & Registration</h3>
-                    <p class="project-desc">A dynamic web application using Jinja2 Templates and Flask that allowed users to securely register and login.</p>
-                    <div class="project-metadata">
-                        <a href="https://github.com/ryann-0101/Python-Flask-Project-London-Zoo" class="project-link" target="_blank">View Project →</a>
-                        <span class="project-updated">Updated Jan 2026</span>
-                    </div>
-                </article>
-
-                <article class="project-card">
-                    <h3 class="project-name">CS Entrance Test Application</h3>
-                    <p class="project-desc">A Python program for applications at the Computer Science Dept. at a college. This program will check applicant's meets given requirements such as age, academic qualifications, good behavior and attendance record alongside also checking results of a assessment and then giving applications a small math's game to group them into levels based on score</p>
-                    <div class="project-metadata">
-                        <a href="https://github.com/ryann-0101/Python-CS-Dept-Entry-Test-Program" class="project-link" target="_blank">View Project →</a>
-                        <span class="project-updated">Updated May 2025</span>
-                    </div>
-                </article>
+            <div id="projects-grid">
 
             </div>
-        </section>
+            
+        </main>
 
-        <div class="view-all-wrapper">
-            <a href="https://github.com/ryann-0101/" class="view-all-link">View All Projects</a>
-        </div>
-    </main>
 
-    <footer>
+        <footer>
+
         <ul>
-        
             <li><a href="index.html">Projects</a></li>
             <li><a href="https://github.com/ryann-0101">GitHub</a></li>
             <li><a href="mailto:ryan@rndevelopments.xyz">Contact</a></li>
         </ul>
+
         <p class="copyright">&copy; 2026 rndevelopments.xyz. All rights reserved.</p>
-    </footer>
 
-</body>
+        </footer>
 
+    </body>
 </html>
