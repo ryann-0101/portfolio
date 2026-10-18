@@ -132,6 +132,30 @@ nav a:hover{
     font-size: 13.5px;
 }
 
+#projects-container {
+    text-align: center;
+    justify-self: center;
+    display: flex;
+    flex-direction: column;
+    width: 82%;
+    height: fit-content;
+    margin: 4%;
+    padding: 2%;
+    background-color: #313131;
+    border-radius: 12px;
+}
+
+#projects-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 20px;
+}
+
+#projects-grid .project{
+    border: 1px solid white;
+    border-radius: 12px;
+    word-wrap: break-word;
+}
 
 footer{
     margin-top: auto;
