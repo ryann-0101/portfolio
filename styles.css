@@ -89,11 +89,10 @@ nav a:hover {
     background-color: #414141;
 }
 
-/* ---------- About section ---------- */
 
 #about-me {
     display: flex;
-    align-items: stretch;      /* both cards get the same height */
+    align-items: stretch;      
     justify-content: center;
     gap: 4%;
     width: 90%;
@@ -116,7 +115,7 @@ nav a:hover {
 #info, #qualifications {
     border: 1px solid white;
     width: 90%;
-    margin: 0 auto 24px auto;  /* centred, with space below */
+    margin: 0 auto 24px auto;  
     padding: 2%;
     border-radius: 12px;
 }
@@ -147,7 +146,6 @@ nav a:hover {
     font-size: 13.5px;
 }
 
-/* ---------- Projects ---------- */
 
 #projects-container {
     text-align: center;
@@ -185,7 +183,6 @@ button {
     cursor: pointer;
 }
 
-/* ---------- Footer ---------- */
 
 footer {
     margin-top: auto;
