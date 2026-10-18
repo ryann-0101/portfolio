@@ -95,6 +95,7 @@ nav a:hover{
     display: flex;
     width: 90%;
     height: fit-content;
+    justify-content: center;
     margin: 2%;
     padding: 2%;
 }
@@ -132,6 +133,19 @@ nav a:hover{
     font-size: 13.5px;
 }
 
+#info, #qualifications{
+    
+    border:1px solid white;
+    justify-self: center;
+    width:90%;
+    margin: 2%;
+    padding:2%;
+    border-radius: 12px;
+    margin-top: 4%;
+}
+
+
+
 #projects-container {
     text-align: center;
     justify-self: center;
@@ -157,6 +171,16 @@ nav a:hover{
     word-wrap: break-word;
 }
 
+button{
+    color: white;
+    border: 1px solid white;
+    border-radius: 12px;
+    padding: 2%;
+    margin: 2%;
+    margin-top: 4%;
+    background-color: transparent;
+    cursor: pointer;
+}
 footer{
     margin-top: auto;
     text-align: center;
