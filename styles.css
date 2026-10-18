@@ -64,7 +64,7 @@ hr {
 
 nav {
     display: flex;
-    justify-content: flex-end;
+    justify-content: center;
     align-items: center;
     background-color: #313131;
     width: 100%;
