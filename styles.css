@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
     background-color: #212121;
     font-family: Arial, Helvetica, sans-serif;
@@ -8,20 +12,19 @@ body {
     min-height: 100vh;
 }
 
-a{
+a {
     text-align: center;
     color: white;
     text-decoration: none;
 }
 
-.hero{
+.hero {
     display: flex;
     flex-direction: row;
     height: 75%;
-    
 }
 
-hr{
+hr {
     width: 90%;
     margin: 4%;
 }
@@ -31,7 +34,6 @@ hr{
     margin: 2%;
     padding: 2%;
     height: 25rem;
-    box-sizing: border-box;
     border-radius: 12px;
     overflow: hidden;
 }
@@ -43,14 +45,12 @@ hr{
     display: block;
 }
 
-#intro-text{
+#intro-text {
     width: 40%;
     padding: 2%;
     margin: 2%;
     word-wrap: break-word;
 }
-
-
 
 #intro-text .intro-p, .intro-header {
     animation: slideIn 2s ease-out 1s forwards;
@@ -64,11 +64,10 @@ hr{
 
 nav {
     display: flex;
-    justify-content: flex-end;   
+    justify-content: flex-end;
     align-items: center;
     background-color: #313131;
     width: 100%;
-    box-sizing: border-box;
     padding: 1rem 0;
 }
 
@@ -79,81 +78,84 @@ nav ul {
 }
 
 nav a {
-    color: white;         
+    color: white;
     text-decoration: none;
     padding: 1rem;
     font-size: large;
     cursor: pointer;
 }
 
-nav a:hover{
-     background-color: #414141;
+nav a:hover {
+    background-color: #414141;
 }
 
+/* ---------- About section ---------- */
 
 #about-me {
     display: flex;
-    width: 90%;
-    height: fit-content;
+    align-items: stretch;      /* both cards get the same height */
     justify-content: center;
-    margin: 2%;
+    gap: 4%;
+    width: 90%;
+    margin: 2% auto;
     padding: 2%;
 }
 
-#info-qualifications{
+#info-qualifications {
     text-align: center;
     width: 45%;
-    margin: 2%;
     padding: 2%;
     border-radius: 12px;
     background-color: #313131;
 }
 
-#tech-stack{
+#info-qualifications h3 {
+    margin-top: 0;
+}
+
+#info, #qualifications {
+    border: 1px solid white;
+    width: 90%;
+    margin: 0 auto 24px auto;  /* centred, with space below */
+    padding: 2%;
+    border-radius: 12px;
+}
+
+#tech-stack {
     text-align: center;
     display: flex;
     flex-direction: column;
     width: 45%;
     background-color: #313131;
-    margin: 2%;
     padding: 2%;
     border-radius: 12px;
-    
 }
 
-#tech-stack .skill{
+#tech-stack h3 {
+    margin-top: 0;
+}
+
+#tech-stack .skill {
     width: 90%;
-    margin: 2%;
+    margin: 0 auto 16px auto;
     padding: 2%;
     border: 1px solid white;
     border-radius: 12px;
 }
 
-#tech-stack .skill p{
+#tech-stack .skill p {
     font-size: 13.5px;
 }
 
-#info, #qualifications{
-    
-    border:1px solid white;
-    justify-self: center;
-    width:90%;
-    margin: 2%;
-    padding:2%;
-    border-radius: 12px;
-    margin-top: 4%;
-}
-
-
+/* ---------- Projects ---------- */
 
 #projects-container {
     text-align: center;
-    justify-self: center;
     display: flex;
     flex-direction: column;
     width: 82%;
     height: fit-content;
-    margin: 4%;
+    margin: 4% auto;
     padding: 2%;
     background-color: #313131;
     border-radius: 12px;
@@ -165,13 +167,14 @@ nav a:hover{
     gap: 20px;
 }
 
-#projects-grid .project{
+#projects-grid .project {
     border: 1px solid white;
     border-radius: 12px;
+    padding: 2%;
     word-wrap: break-word;
 }
 
-button{
+button {
     color: white;
     border: 1px solid white;
     border-radius: 12px;
@@ -181,17 +184,19 @@ button{
     background-color: transparent;
     cursor: pointer;
 }
-footer{
+
+/* ---------- Footer ---------- */
+
+footer {
     margin-top: auto;
     text-align: center;
     width: 100%;
     height: fit-content;
     background-color: #414141;
-    padding-bottom: 2%;  
-  
+    padding-bottom: 2%;
 }
 
-footer ul{
+footer ul {
     list-style: none;
     display: inline-flex;
     flex-direction: row;
